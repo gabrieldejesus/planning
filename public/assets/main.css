@@ -1,0 +1,33 @@
+/* ======================================================= DEFAULT ======================================================= */
+* {
+    outline:none;
+    box-sizing:border-box;
+    font-family:'Poppins', sans-serif;
+}
+body {
+    margin:0;
+    padding:0;
+    background-color:var(--light-color);
+}
+:root { /* colors */
+    --black-color:#202225;
+    --light-color:#EEEEEE;
+    --text-color:#9C9CA5;
+    --white-color:#FFFFFF;
+    --dark-color:#2F3136;
+}
+.container { /* general container */
+    width:1208px;
+    display:flex;
+    justify-content:space-between;
+}
+.column { /* change direction to display flex */
+    flex-direction:column; 
+}
+a {
+    text-decoration:none;
+    color:var(--black-color);
+}
+ul {
+    list-style:none;
+}
