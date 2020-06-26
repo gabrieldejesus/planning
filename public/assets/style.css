@@ -8,7 +8,6 @@ header {
     display:flex;
     align-items:center;
     justify-content:center;
-    background-color:var(--light-color);
 }
 .search,
 .profile {
@@ -78,18 +77,54 @@ main {
     display:flex;
     justify-content:center;
     height:calc(100vh - 140px);
-    background-color:red;
 }
 .widget-title {
     display:flex;
     align-items:center;
+    margin-top:50px;
+}
+.widget-title h1 {
+    margin:0;
+    font-size:40px;
+    font-weight:700;
+    color:var(--black-color);
 }
 .widget-title img {
     margin-left:12px;
 }
+.widget-body {
+    width:100%;
+    height:100vh;
+    padding:26px;
+    margin-top:44px;
+    border-radius:10px;
+    background-color:#FFF;
+    box-shadow:0px 0px 30px #1414141a;
+}
 /* ======================================================= ASIDE ======================================================== */
 
 /* ======================================================= FOOTER ======================================================= */
-
-
+footer {
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+footer .container {
+    justify-content:center;
+}
+.footer-copy {
+    display:flex;
+    align-items:center;
+}
+.footer-copy p {
+    font-size:16px;
+    font-weight:400;
+    color:var(--text-color);
+}
+.footer-copy a {
+    font-size:16px;
+    font-weight:400;
+    margin-left:6px;
+    color:var(--black-color);
+}
 /* ===================================================== RESPONSIVE ===================================================== */
