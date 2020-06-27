@@ -74,9 +74,9 @@ header {
 }
 /* ======================================================== MAIN ======================================================== */
 main {
+    height:670px;
     display:flex;
     justify-content:center;
-    height:calc(100vh - 140px);
 }
 .widget-title {
     display:flex;
@@ -98,13 +98,52 @@ main {
     padding:26px;
     margin-top:44px;
     border-radius:10px;
-    background-color:#FFF;
+    background-color:var(--white-color);
     box-shadow:0px 0px 30px #1414141a;
 }
 /* ======================================================= ASIDE ======================================================== */
-
+aside {
+    display:flex;
+    align-items:center;
+    top:0;
+    left:0;
+    bottom:0;
+    width:200px;
+    height:100vh;
+    position:fixed;
+    background-color:var(--white-color);
+    box-shadow:0px 10px 10px #14141433;
+}
+aside .logo {
+    margin-top:26px;
+    margin-bottom:60px;
+}
+aside nav a {
+    height:27px;
+    display:flex;
+    align-items:center;
+    font-size:18px;
+    font-weight:400;
+    margin-bottom:30px;
+    border-radius:2px;
+    color:var(--black-color);
+}
+aside nav li:hover {
+    border-right:4px solid #00CDAC;
+}
+aside nav img {
+    margin-right:10px;
+}
+aside nav .menu-bar {
+    width:180px;
+    height:1px;
+    margin-top:60px;
+    margin-bottom:60px;
+    background-color:#DDD;
+}
 /* ======================================================= FOOTER ======================================================= */
 footer {
+    height:40px;
     display:flex;
     align-items:center;
     justify-content:center;
@@ -126,5 +165,8 @@ footer .container {
     font-weight:400;
     margin-left:6px;
     color:var(--black-color);
+}
+.footer-copy a:hover {
+    text-decoration:underline;
 }
 /* ===================================================== RESPONSIVE ===================================================== */
