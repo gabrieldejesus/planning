@@ -74,9 +74,12 @@ header {
 }
 /* ======================================================== MAIN ======================================================== */
 main {
-    height:670px;
     display:flex;
     justify-content:center;
+}
+.main-body {
+    height:670px;
+    display:flex;
 }
 .widget-title {
     display:flex;
@@ -103,14 +106,14 @@ main {
 }
 /* ======================================================= ASIDE ======================================================== */
 aside {
-    display:flex;
-    align-items:center;
+    display:none;
     top:0;
     left:0;
     bottom:0;
+    position:fixed;
+    align-items:center;
     width:200px;
     height:100vh;
-    position:fixed;
     background-color:var(--white-color);
     box-shadow:0px 10px 10px #14141433;
 }
@@ -156,6 +159,7 @@ footer .container {
     align-items:center;
 }
 .footer-copy p {
+    margin:0;
     font-size:16px;
     font-weight:400;
     color:var(--text-color);
@@ -170,3 +174,39 @@ footer .container {
     text-decoration:underline;
 }
 /* ===================================================== RESPONSIVE ===================================================== */
+@media (max-width:1208px) {
+    .container {
+        padding-left:10px;
+        padding-right:10px;
+    }
+}
+@media (max-width:600px) {
+    header .container {
+        flex-direction:column-reverse;
+    }
+    .profile {
+        margin-top:10px;
+        margin-bottom:10px;
+    }
+    .widget-title {
+        justify-content:center;
+    }
+    .footer-copy {
+        margin-top:26px;
+        flex-direction:column;
+    }
+}
+@media (max-width:400px) {
+    .widget-title h1 {
+        font-size:30px;
+    }
+    .footer-copy p {
+        font-size:14px;
+        margin-top:26px;
+        max-width:310px;
+        text-align:center;
+    }
+    .footer-copy a {
+        font-size:14px;
+    }
+}
