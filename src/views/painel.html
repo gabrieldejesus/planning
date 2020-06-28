@@ -8,7 +8,7 @@
     <link href="/public/assets/main.css" rel="stylesheet" type="text/css"> <!-- Main CSS -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">  <!-- Font -->
 </head>
-<body onclick="menuClosed()">
+<body>
 <!-- ======================================================= HEADER ======================================================= -->
     <header>
         <div class="container">
@@ -47,7 +47,7 @@
         </div>
     </main>
 <!-- ======================================================= ASIDE ======================================================== -->
-    <div id="menu-window">
+    <div id="menu-window" onclick="menuClosed()">
         <aside>
             <div id="menu-area" class="column">
                 <div class="close-menu" onclick="menuClosed()"><img src="/public/images/arrow-right.webp" alt="Fechar menu lateral"></div>

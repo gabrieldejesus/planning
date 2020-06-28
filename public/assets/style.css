@@ -112,17 +112,16 @@ main {
 }
 /* ======================================================= ASIDE ======================================================== */
 #menu-window {
-    display:flex;
+    display:none;
     top:0;
     left:0;
     right:0;
     bottom:0;
     position:fixed;
-    transition:all ease 0.3s;
     background-color:#14141433;
 }
 aside {
-    width:230px;
+    width:0px;
     height:100vh;
     display:flex;
     position:fixed;
@@ -145,15 +144,20 @@ aside {
     position:absolute;
 }
 #menu-area nav ul li {
+    cursor:pointer;
     display:flex;
     align-items:center;
-    margin-bottom:5px;
-    padding:10px 46px 10px 26px;
+    margin-bottom:30px;
+    padding-left:10px;
 }
 #menu-area nav ul li:hover {
-    transition:all 0.3s;
-    background-color:#f1f1f1;
-    border-top:1px solid #00CDAC;
+    transition:0.3s;
+    padding-top:5px;
+    border-top:2px solid #00CDAC;
+}
+#menu-area nav ul a {
+    font-size:18px;
+    font-weight:400;
 }
 #menu-area nav ul a img {
     margin-right:10px;
