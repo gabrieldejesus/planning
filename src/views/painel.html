@@ -8,11 +8,12 @@
     <link href="/public/assets/main.css" rel="stylesheet" type="text/css"> <!-- Main CSS -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">  <!-- Font -->
 </head>
-<body>
+<body onclick="menuClosed()">
 <!-- ======================================================= HEADER ======================================================= -->
     <header>
         <div class="container">
             <div class="search">
+                <div class="open-menu" onclick="menuOpen()"><img src="/public/images/open-menu.webp" alt="Menu lateral"></div>
                 <label for="search"><img src="/public/images/search.webp" alt="Pesquise aqui"></label>
                 <form method="GET">
                     <input type="search" id="search" placeholder="Pesquise aqui...">
@@ -46,19 +47,9 @@
         </div>
     </main>
 <!-- ======================================================= ASIDE ======================================================== -->
-    <aside class="column">
-        <div class="logo"><a href="#"><img src="/public/images/logomarca.webp" alt="Logomarca"></a></div>
-        <nav>
-            <ul>
-                <li><a href="#"><img src="/public/images/notes.webp" alt="Anotações">Anotações</a></li>
-                <li><a href="#"><img src="/public/images/projects.webp" alt="Anotações">Projetos</a></li>
-                <li><a href="#"><img src="/public/images/calendar.webp" alt="Anotações">Calendário</a></li>
-                <div class="menu-bar"></div>
-                <li><a href="#"><img src="/public/images/settings.webp" alt="Anotações">Configurações</a></li>
-                <li><a href="#"><img src="/public/images/logout.webp" alt="Anotações">Sair</a></li>
-            </ul>
-        </nav>
-    </aside>
+    <div id="menu-window">
+        
+    </div>
 <!-- ======================================================= FOOTER ======================================================= -->
     <footer>
         <div class="container">

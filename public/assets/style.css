@@ -16,9 +16,15 @@ header {
     justify-content:center;
 }
 .search img {
+    cursor:pointer;
     width:25px;
     height:25px;
     margin-right:5px;
+}
+.search .open-menu img {
+    width:35px;
+    height:22px;
+    margin-right:26px;
 }
 .search input {
     border:0;
@@ -105,45 +111,7 @@ main {
     box-shadow:0px 0px 30px #1414141a;
 }
 /* ======================================================= ASIDE ======================================================== */
-aside {
-    display:none;
-    top:0;
-    left:0;
-    bottom:0;
-    position:fixed;
-    align-items:center;
-    width:200px;
-    height:100vh;
-    background-color:var(--white-color);
-    box-shadow:0px 10px 10px #14141433;
-}
-aside .logo {
-    margin-top:26px;
-    margin-bottom:60px;
-}
-aside nav a {
-    height:27px;
-    display:flex;
-    align-items:center;
-    font-size:18px;
-    font-weight:400;
-    margin-bottom:30px;
-    border-radius:2px;
-    color:var(--black-color);
-}
-aside nav li:hover {
-    border-right:4px solid #00CDAC;
-}
-aside nav img {
-    margin-right:10px;
-}
-aside nav .menu-bar {
-    width:180px;
-    height:1px;
-    margin-top:60px;
-    margin-bottom:60px;
-    background-color:#DDD;
-}
+
 /* ======================================================= FOOTER ======================================================= */
 footer {
     height:40px;
@@ -180,9 +148,17 @@ footer .container {
         padding-right:10px;
     }
 }
-@media (max-width:600px) {
+@media (max-width:610px) {
     header .container {
         flex-direction:column-reverse;
+    }
+    .search .open-menu img {
+        width:28px;
+        height:20px;
+        margin-right:10px;
+    }
+    .search input {
+        width:228px;
     }
     .profile {
         margin-top:10px;
