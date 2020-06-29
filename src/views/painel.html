@@ -13,15 +13,15 @@
     <header>
         <div class="container">
             <div class="search">
-                <div class="open-menu" onclick="menuOpen()"><img src="/public/images/open-menu.webp" alt="Menu lateral"></div>
-                <label for="search"><img src="/public/images/search.webp" alt="Pesquise aqui"></label>
+                <div class="open-menu" onclick="menuOpen()"><img id="open-menu" src="/public/images/open-menu.webp" alt="Menu lateral"></div>
+                <label for="search"><img  id="search-button" src="/public/images/search.webp" alt="Pesquise aqui"></label>
                 <form method="GET">
                     <input type="search" id="search" placeholder="Pesquise aqui...">
                 </form>
             </div>
             <div class="profile">
-                <div id="change-theme-light"><img src="/public/images/change-theme-light.webp" alt="Alterar o tema"></div>
-                <div id="change-theme-dark"><img src="/public/images/change-theme-dark.webp" alt="Alterar o tema"></div>
+                <div id="change-theme-light" onclick="changeThemeDark()"><img src="/public/images/change-theme-light.webp" alt="Alterar o tema"></div>
+                <div id="change-theme-dark" onclick="changeThemeLight()"><img src="/public/images/change-theme-dark.webp" alt="Alterar o tema"></div>
                 <div class="profile--info">
                     <div class="profile--info--avatar"></div>
                     <div class="profile--infos column">
@@ -37,7 +37,7 @@
         <div class="container column">
             <div class="main-body column">
                 <div class="widget-title">
-                    <h1>Olá, Campeão!</h1>
+                    <h1 id="title">Olá, Campeão!</h1>
                     <img src="/public/images/hand.webp" alt="Olá">
                 </div>
                 <div class="widget-body">

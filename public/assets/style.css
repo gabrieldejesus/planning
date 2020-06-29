@@ -1,6 +1,13 @@
 /* ======================================================= THEMES ======================================================= */
-#dark {
-    background-color:red;
+.dark-color {
+    color:var(--white-color);
+    background-color:#2F3136;
+}
+.dark-color label {
+    color:var(--white-color);
+}
+.black-color {
+    background-color:#202225;
 }
 /* ======================================================= HEADER ======================================================= */
 header {
@@ -100,6 +107,12 @@ main {
 }
 .widget-title img {
     margin-left:12px;
+    animation:hand 1.5s infinite;
+}
+@keyframes hand {
+    0%{transform:rotateX(0deg);}
+    50%{transform:rotate(25deg);}
+    100%{transform:rotate(0deg);}
 }
 .widget-body {
     width:100%;
@@ -126,8 +139,11 @@ aside {
     display:flex;
     position:fixed;
     justify-content:center;
-    background-color:#FFF;
+    background-color:var(--white-color);
     box-shadow:0px 10px 10px #1414141a;
+}
+#menu-area {
+    width:180px;
 }
 #menu-area .logo {
     display:flex;
@@ -151,12 +167,11 @@ aside {
     padding-left:10px;
 }
 #menu-area nav ul li:hover {
-    transition:0.3s;
-    padding-top:5px;
-    border-top:2px solid #00CDAC;
+    color:#00CDAC;
+    border-left:4px solid #00CDAC;
 }
 #menu-area nav ul a {
-    font-size:18px;
+    font-size:17px;
     font-weight:400;
 }
 #menu-area nav ul a img {
