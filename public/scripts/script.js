@@ -18,6 +18,8 @@ function changeThemeDark() {
     document.getElementById('search').style.color = 'var(--white-color)';
     document.querySelector('header').classList.add('dark-color');
     document.querySelector('a').classList.add('dark-color');
+    
+    // Main
     document.querySelector('main').classList.add('dark-color');
     document.getElementById('title').style.color = ('var(--white-color)');
     document.getElementById('widget-body').classList.add('black-color');
@@ -25,7 +27,8 @@ function changeThemeDark() {
     document.querySelector('footer').classList.add('dark-color');
     document.getElementById('menu-window').style.background = ('#FFFFFF33');
     document.querySelector('aside').classList.add('dark-color');
+    document.querySelector('li').classList.add('dark-color');
 
-    // Main
+
 
 }
