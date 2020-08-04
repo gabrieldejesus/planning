@@ -1,5 +1,3 @@
-> 📚 Make notes, plan projects and always have an organized and motivational calendar on hand.
-
 # Project: Planning
 
 > Make notes, plan projects and always have an organized and motivational calendar on hand.
