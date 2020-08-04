@@ -1,4 +1,4 @@
-#### 📚 _Project created to exercise what I'm learning with HTML, CSS and JavaScript_
+> 📚 Make notes, plan projects and always have an organized and motivational calendar on hand.
 
 # Project: Planning
 
