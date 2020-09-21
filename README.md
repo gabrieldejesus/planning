@@ -1,14 +1,16 @@
-# Project: Planning
+# Planning
+Make notes, plan projects and always have an organized and motivational calendar on hand.
 
-> Make notes, plan projects and always have an organized and motivational calendar on hand.
-
-
-> Web preview
+`Web preview`
 ![](public/images/web-preview.gif)
 
+## Deployment in
+https://devgabrieldejesus.github.io/planning
 
 ## Release history
 
+* 0.0.2
+    * Finished project and studying the possibility of adding `new resources`
 * 0.0.1
     * Work in `progress`
 
