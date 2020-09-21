@@ -4,9 +4,6 @@ Make notes, plan projects and always have an organized and motivational calendar
 `Web preview`
 ![](public/images/web-preview.gif)
 
-## Deployment in
-https://devgabrieldejesus.github.io/planning
-
 ## Release history
 
 * 0.0.2
