@@ -13,7 +13,7 @@ Make notes, plan projects and always have an organized and motivational calendar
 
 ## Meta
 
-Gabriel de Jesus – [My portfolio](https://www.gabrieldesenvolvedor.com) – contato@gabrieldesenvolvedor.com
+Gabriel de Jesus – [My portfolio](https://www.gabrieldesenvolvedor.com) – oi@gabrieldesenvolvedor.com
 
 Distributed under the MIT License. See `LICENSE` for more information.
 
