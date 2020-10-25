@@ -60,7 +60,7 @@ _Português_
 
 ## 💻 Configuração para Desenvolvimento
 
-Janelas:
+Windows:
 
 Você pode clonar o repositório por meio do CMD (Prompt de Comando) apenas digitando:
 
