@@ -2,7 +2,7 @@ _English_
 
 # Planning
 
-📋 Project created to test my new skills in HTML, CSS and JavaScript
+📋 Organize day-to-day tasks
 
 `Web preview`
 ![](public/images/web-preview.gif)
@@ -53,7 +53,7 @@ _Português_
 
 # Planejamento
 
-📋 Projeto criado para testar minhas novas habilidades em HTML, CSS e JavaScript
+📋 Organizar tarefas do dia-a-dia
 
 `Visualização da Web`
 ![](public/images/web-preview.gif)
